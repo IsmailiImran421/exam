@@ -1,1 +1,1 @@
-localhost|root||gestion
+localhost|root|faska|gestion

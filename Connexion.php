@@ -6,7 +6,7 @@ try {
  $user = $tab[1];
  $motPass = $tab[2];
  $db = $tab[3];
- $conn = new mysqli($serveur,$user,"",$db);
+ $conn = new mysqli($serveur,$user,$motPass,$db,3308);
  fclose($fichier);
 } catch (mysqli_sql_exception $e) {
  die("Erreur dans la connecion");
